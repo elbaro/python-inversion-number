@@ -2,15 +2,15 @@
 
 ## Install
 ```sh
-pip install inversion-number
+pip install python_inversion_number
 ```
 
 ## Usage
 ```py
-import inversion_number
-assert inversion_number.calc([1,2,3]) == 0
-assert inversion_number.calc(np.array([3,1,2])) == 2
-assert inversion_number.calc(torch.tensor([1,2,3])) == 0
+import python_inversion_number
+assert python_inversion_number.count([1,2,3]) == 0
+assert python_inversion_number.count(np.array([3,1,2])) == 2
+assert python_inversion_number.count(torch.tensor([1,2,3])) == 0
 ```
 
 The argument can be any object with `__len__` and `__iter__`.
