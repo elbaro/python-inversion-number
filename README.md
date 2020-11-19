@@ -3,6 +3,9 @@
 ## Install
 ```sh
 pip install python_inversion_number
+# or
+https://github.com/elbaro/python-inversion-number.git
+pip install .
 ```
 
 ## Usage

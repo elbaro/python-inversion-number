@@ -30,3 +30,6 @@ rand = "0.7.3"
 name = "basic"
 harness = false
 
+[package.metadata.maturin]
+maintainer = "elbaro"
+project-url = ["https://github.com/elbaro/python-inversion-number"]
