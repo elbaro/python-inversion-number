@@ -35,6 +35,6 @@ timeit.timeit(lambda: b.inversions(), number=10)
 # >> 38.14018609099912
 
 a = a+1
->>> timeit.timeit(lambda: python_inversion_number.count(a), number=10)
+timeit.timeit(lambda: python_inversion_number.count(a), number=10)
 # >> 14.66622285899939
 ```
